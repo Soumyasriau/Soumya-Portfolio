@@ -36,7 +36,7 @@ I am a Computer Science and Engineering student at Andhra University, passionate
 
 ## 💼 Internship Experience
 
-**Upskills – AI Mentor Project**
+**Uptoskills – AI Mentor Project**
 
 Contributing to an existing collaborative project by working on assigned development tasks, using Git and GitHub, and submitting Pull Requests for review.
 
