@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Fill the {{TOKENS}} (the compliance gate fails on any left over):
+        TITLE        — product name + one-line hook, ≤60 chars
+        DESCRIPTION  — ≤155 chars
+        CANONICAL    — public origin, no trailing slash (from get-public-url.py)
+        THEME_COLOR  — hex matching --color-canvas in src/index.css
+      Sites: also drop public/og-image.jpg (1200x630). Apps: og-image optional.
+    -->
+    <title>Soumya Allamsetti — Software Engineer Portfolio</title>
+    <meta name="description" content="B.Tech CSE student and aspiring software engineer building web apps and AI-powered tools with Python, Flask and JavaScript." />
+    <meta name="theme-color" content="#FFF7F0" />
+    <link rel="canonical" href="https://soumya-portfolio.example/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Soumya Allamsetti — Software Engineer Portfolio" />
+    <meta property="og:description" content="B.Tech CSE student and aspiring software engineer building web apps and AI-powered tools with Python, Flask and JavaScript." />
+    <meta property="og:url" content="https://soumya-portfolio.example/" />
+    <meta property="og:image" content="https://soumya-portfolio.example/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Soumya Allamsetti — Software Engineer Portfolio" />
+    <meta name="twitter:description" content="B.Tech CSE student and aspiring software engineer building web apps and AI-powered tools with Python, Flask and JavaScript." />
+    <meta name="twitter:image" content="https://soumya-portfolio.example/og-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=fraunces:500,600,700|plus-jakarta-sans:400,500,600,700&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Venkata Soumya Sri Allamsetti","jobTitle":"B.Tech CSE Student | Software Engineer","address":"Visakhapatnam, Andhra Pradesh, India","sameAs":["https://github.com/Soumyasriau","https://www.linkedin.com/in/venkata-soumya-sri-allamsetti-248530331"]}</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

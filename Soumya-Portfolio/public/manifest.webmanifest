@@ -1,0 +1,10 @@
+{
+  "name": "Soumya Allamsetti — Software Engineer Portfolio",
+  "short_name": "Soumya Allamsetti — Software Engineer Portfolio",
+  "description": "B.Tech CSE student and aspiring software engineer building web apps and AI-powered tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF7F0",
+  "theme_color": "#FFF7F0",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
